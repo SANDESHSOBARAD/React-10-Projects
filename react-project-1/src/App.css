@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: white;
+}
+/* ---------NavigationBar Page--------*/
+.container{
+    background-color: white;
+    margin: 0 auto;
+    color: rgb(12, 8, 8);
+    max-width: calc(100% - 50px);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.container .logo{
+    height: 70px;
+    width: 140px;
+}
+
+.container .logo img{
+    height: 70px;
+    width: 140px;
+}
+
+.container ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.container ul li {
+    margin-top: -10px;
+    padding: 30px;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container .btn{
+    margin-top: -5px;
+}
+
+.container .btn button{
+
+    height: 40px;
+    width: 100px;
+    border-radius: 24px;
+    color: white;
+    background-color: red;
+}
+
+/* ----------Hero----------*/
+
+.hero-container{
+    margin: 10%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container .hero-content p{
+    position: relative;
+    padding: 0 200px 0px 0px;
+    margin-top: 25px;
+    color: gray;
+
+}
+
+.hero-container .hero-content h1{
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.hero-container .hero-content p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hero-container .hero-content .icons img{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+.hero-container .shoe img{
+    height: 100%;
+    position: relative;
+}
+
+.hero-container .hero-content .btn{
+    margin-top: 10px;
+    display: flex;
+}
+
+.hero-container .hero-content .btn .btn-1,
+.hero-container .hero-content .btn .btn-2{
+    height: 40px;
+    width: 120px;
+    margin: 30px;
+
+}
+
+.hero-container .hero-content .btn .btn-1 {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+.hero-container .hero-content .btn .btn-2{
+    background-color: white;
+    color: rgb(39, 38, 38);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px;
+
+} 
+
+.hero-container .hero-content .shopping .icons {
+    margin-top: 5px;
+    display: flex;
+}
+
+.hero-container .hero-content .shopping .icons .icon1:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.4);
+}
+.hero-container .hero-content .shopping .icons .icon2:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.4);
+}
+
+
