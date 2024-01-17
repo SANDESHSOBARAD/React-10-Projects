@@ -3,6 +3,7 @@ import React from 'react'
 import Amazon from '../assets/amazon.png'
 import Walmart from '../assets/walmart.png'
 import Shoe from '../assets/hero-image.png'
+import { CiShoppingCart } from "react-icons/ci";
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
             YOUR FEET DESERVE THE BEST AND WE'RE HERE TO HELP YOU WITH OUR SHOES.
             </p>
             <div className="btn">
-            <button className='btn-1'>Shop Now</button>
+            <button className='btn-1' > <CiShoppingCart className='shop-icon'/>Shop Now</button>
             <button className='btn-2'>Category</button>
             </div>
             <div className="shopping">

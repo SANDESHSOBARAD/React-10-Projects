@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/*----------NavBar----------*/
+
+.navbar{
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: white;
+}
+
+.navbar .logo img{
+    margin-left: 50px;
+    padding: 10px;
+    height: 60px;
+    width: 160px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    margin-top: -10px;
+    padding: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*----------ContactHeader----------*/
+
+.header{
+    padding: 10px 240px 10px 200px;
+}
+
+.header h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.header p{
+    color: gray;
+    font-weight: 500;
+}
+
+/*----------ContactForm----------*/
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    align-items: start;
+    justify-content: space-between;
+  }
+  .btns {
+    display: flex;
+    gap: 32px;
+  }
+
+
+  .form_control {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    position: relative;
+    margin-top: 10px;
+  }
+  .form_control input {
+    height: 40px;
+    padding: 0 8px;
+  }
+  .form_control textarea {
+    padding: 8px;
+  }
+  
+  .form_control label {
+    font-size: 14px;
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    background-color: white;
+    padding: 12px 10px;
+  }
+
+  .form_control{
+    padding: 10px;
+  }
+
+  .container .img img{
+    height: 600px;
+    width: 600px;
+    margin-top: -90px;
+    margin-left: 50px;
+  }
+
+  input{
+    font-size: 10px;
+    font-weight: 500;
+  }
